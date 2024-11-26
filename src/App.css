@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-2
+}
+
+.bg-header_bg{
+  background: rgb(126, 48, 48);
+}
+
+.bg-mobnav{
+  @apply fixed top-10 bg-slate-500 left-96 right-0 h-1/4;
+}
+
+
+.bg-mobnav li{
+  @apply text-center h-full w-full border-b-2
+}
+
+.bg-hero {
+  background-color: rgb(192, 30, 170);
+}
+
+.icon{
+  @apply right-0 text-rose-300
+}
+
+.dw-btn{
+  @apply px-5 py-2 bg-slate-500 hover:border-2 border-white rounded;
+}
+
+html{
+  scroll-behavior: smooth;
+}
